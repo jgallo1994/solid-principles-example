@@ -1,0 +1,22 @@
+{
+  "name": "solid-principles-example",
+  "version": "1.0.0",
+  "description": "Examples of SOLID principles in TypeScript",
+  "main": "dist/index.js",
+  "scripts": {
+    "solid": "ts-node src/solid.ts",
+    "srp": "ts-node src/srp.ts",
+    "ocp": "ts-node src/ocp.ts",
+    "lsp": "ts-node src/lsp.ts",
+    "isp": "ts-node src/isp.ts",
+    "dip": "ts-node src/dip.ts"
+  },
+  "author": "John Gallo jhon.gallo1994@gmail.com",
+  "dependencies": {
+    "typescript": "^5.5.4",
+    "ts-node": "^10.9.2"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  }
+}
